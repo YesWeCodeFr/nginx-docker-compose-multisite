@@ -332,13 +332,18 @@ http://ADRESSE_IP_DU_VPS
 
 ## 8. Associer le domaine au serveur
 
-Dans la zone DNS de votre domaine, représenté ici par `example.com`, créez une entrée de type `A` :
+Pour rendre le site `www.example.com` accessible, ouvrez la zone DNS du domaine `example.com`, puis créez une entrée de type `A` :
 
 ```text
 Type  : A
-Nom   : www
+Nom   : www.example.com
 Valeur: ADRESSE_IP_PUBLIQUE_DU_VPS
 ```
+
+Cette entrée associe le sous-domaine `www.example.com` à l'adresse IPv4 publique du serveur.
+
+Selon le fournisseur DNS, le champ `Nom` peut attendre le nom complet `www.example.com` ou uniquement le préfixe `www`.
+Vérifiez le format demandé dans son interface.
 
 La propagation DNS peut demander un peu de temps.
 Il reste cependant possible de tester la configuration NGINX localement avant qu'elle soit terminée.
