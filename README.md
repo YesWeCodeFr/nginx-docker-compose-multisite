@@ -21,7 +21,7 @@ L'objectif est de mettre en place une installation structurée dans `/srv/nginx`
 
 Cette page sert de support à la vidéo YouTube associée.
 
-- YouTube : lien à ajouter
+- YouTube : [regarder la vidéo](https://youtu.be/l7uX_mWikqI)
 - LinkedIn : [me suivre sur LinkedIn](https://www.linkedin.com/in/dominique-korzeczek-695033188)
 
 ## Prérequis
