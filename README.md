@@ -24,8 +24,8 @@ L'objectif est de mettre en place une installation structurée dans `/srv/nginx`
 
 Cette page sert de support aux deux vidéos YouTube associées.
 
-- YouTube — [Installer NGINX dans Docker avec Docker Compose](https://youtu.be/l7uX_mWikqI))
-- YouTube — [Sécuriser NGINX dans Docker avec Let's Encrypt] : lien à ajouter
+- YouTube — [Installer NGINX dans Docker avec Docker Compose](https://youtu.be/l7uX_mWikqI)
+- YouTube — [Sécuriser NGINX dans Docker avec Let's Encrypt](https://youtu.be/l7uX_mWikqI)
 - LinkedIn : [me suivre sur LinkedIn](https://www.linkedin.com/in/dominique-korzeczek-695033188)
 
 ## Prérequis
