@@ -904,6 +904,8 @@ docker compose exec nginx nginx -s reload
 
 ## Aller plus loin
 
+### Ajouter d'autres sites
+
 Cette base permet d'ajouter d'autres sites en créant, pour chacun :
 
 - un dossier dans `html` ;
@@ -914,3 +916,7 @@ Cette base permet d'ajouter d'autres sites en créant, pour chacun :
 
 Le même dossier `certbot/www` peut servir aux challenges de plusieurs sites.
 Certbot conserve ensuite tous les certificats sous `certbot/conf`, dans une arborescence distincte pour chaque nom de certificat.
+
+### Utiliser NGINX comme reverse proxy de GitLab
+
+Pour utiliser cette installation NGINX comme reverse proxy de GitLab, consultez le guide [Configurer GitLab derrière NGINX avec Docker Compose](https://github.com/YesWeCodeFr/gitlab-nginx-reverse-proxy-docker-compose).
